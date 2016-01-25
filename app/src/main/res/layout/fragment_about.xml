@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:context="com.syracuse.android.flavors.fragments.AboutFragment">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/whatHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginTop="20dp"
+            android:text="@string/whatHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/whatValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/whatHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/whatValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/uniqueHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/whatValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/uniqueHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/uniqueValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uniqueHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/uniqueValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/accessHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uniqueValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/accessHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accessValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accessHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/accessValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/peopleHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accessValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/peopleHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/peopleValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/peopleHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/peopleValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/questionsHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/peopleValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/questionsHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/questionsValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/questionsHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/questionsValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/developers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/questionsValue"
+            android:layout_marginTop="30dp"
+            android:text="@string/developers"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/sandeshImg"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_below="@+id/developers"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/sandeshHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sandeshImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/sandeshHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sandeshValue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sandeshHeading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/sandeshValue1"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/sandeshValue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sandeshValue1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/sandeshValue2"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textIsSelectable="true" />
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/rahulImg"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_below="@+id/sandeshValue2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/rahulHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rahulImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/rahulHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rahulValue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rahulHeading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/rahulValue1"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/rahulValue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rahulValue1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/rahulValue2"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textIsSelectable="true" />
+
+    </RelativeLayout>
+</ScrollView>

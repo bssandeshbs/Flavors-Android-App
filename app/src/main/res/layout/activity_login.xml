@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context = ".MainActivity"
+    tools:ignore = "MergeRootFrame" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="#FFF0C2"
+        android:layout_height="match_parent"
+        android:id="@+id/menu">
+        <!--Old background color FFECB3-->
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/appIcon"
+            android:src="@drawable/app_icon_img"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="32dp"
+            android:text="Flavors"
+            android:id="@+id/appName"
+            android:layout_marginTop="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/half_black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Sign up for free and find the mouth watering\n\t\t\t\t\t\t\t\t\t\t\t\t\tfood events in your city"
+            android:id="@+id/AppTag"
+            android:layout_marginTop="290dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.facebook.login.widget.LoginButton
+            xmlns:fb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/login_button"
+            android:background="@drawable/login_new"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            fb:login_text=""
+            fb:logout_text=""
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="105dp" />
+
+        <ProgressBar
+            android:id="@+id/indeterminate_progress_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_marginBottom="105dp"/>
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/reload"
+            android:id="@+id/refreshInternet"
+            android:textSize="14dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/half_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:visibility="invisible"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Seems like you are not connected to the Internet"
+            android:id="@+id/internetConnection"
+            android:textSize="14dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/half_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="130dp"
+            android:visibility="invisible"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Please try again later"
+            android:id="@+id/internetConnectionTryAgain"
+            android:textSize="14dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/half_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="115dp"
+            android:visibility="invisible"
+            android:layout_marginTop="15dp" />
+
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="We will never post anything without your permission"
+            android:id="@+id/permissionInfo"
+            android:textSize="9dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/half_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="75dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="By logging in, I agree to foodfeast's terms of service and privacy policy "
+            android:id="@+id/signUpTerms"
+            android:textSize="9dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/half_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:layout_marginTop="15dp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

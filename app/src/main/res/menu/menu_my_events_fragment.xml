@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.syracuse.android.flavors.activities.EventsJoinedActivity">
+    <item android:id="@+id/action_share" android:title="Share"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+    <item android:id="@+id/action_add_to_calendar" android:title="Add to Calendar"
+        android:icon="@drawable/ic_add_event"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/delete_event" android:title="Delete Event"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/email_event_users" android:title="Email Users"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

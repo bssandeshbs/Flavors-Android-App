@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syracuse.android.flavors.fragments.MyEventsFragment">
+
+    <TextView
+        android:id="@+id/eventDetailsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Event Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_below="@+id/eventDetailsTV"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="4dp">
+
+        <ImageView
+            android:id="@+id/menuImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/my_events_menu" />
+
+        <TextView
+            android:id="@+id/menuTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/menuImg"
+            android:text="Food Served"
+            android:textColor="@color/half_black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/eventTimeImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/menuImg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/my_events_time" />
+
+        <TextView
+            android:id="@+id/startTimeTVVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuTV"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="36dp"
+            android:layout_toRightOf="@+id/eventTimeImg"
+            android:text="Event Starting on"
+            android:textColor="@color/half_black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/venuImg"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/slider"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/gps" />
+
+
+        <TextView
+            android:id="@+id/venueTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slider"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="66dp"
+            android:layout_toRightOf="@+id/menuImg"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/half_black"
+            android:textIsSelectable="true"
+            android:textSize="14dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/totalCountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Registered Users"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totalCountTV"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical"></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!--String Resource file for About Us Fragment-->
+    <string name="about">About Us</string>
+    <string name="whatHeading">What is Flavors?</string>
+    <string name="whatValue">Flavors is an app which offers marketplace for food enthusiasts to host food events with guests at convenient time and place. The app also allows to create events at top restaurant at the city. Flavors connects Hosts who offer their hosting skills, food and home facilities to Guests seeking to participate in such feast. Just allow Flavors to detect your location or select a location of your interest, anywhere on the globe, and see an enormous list of home and restaurant events tapped in a second. You can join to event, invite friends or publish an event to Facebook.</string>
+    <string name="uniqueHeading">How is Flavors Unique?</string>
+    <string name="uniqueValue">Flavors is a unique android application. The central Idea is to connect expert food chefs with foodies. This unique idea enables hosts to organize new food events and promotes social interaction.</string>
+    <string name="accessHeading">Where can I access Flavors?</string>
+    <string name="accessValue">Anywhere on the planet. Currently restaurant events can be selected in those cities where yelp provides support. Some of the major countries include US, UK, France, Australia, Italy, Japan, Canada, Mexico, Spain, Sweden, Norway, New Zealand,   Belgium, Argentina, Taiwan and many more. Currently, India is not supported for restaurant events and we are working hard to introduce it.</string>
+    <string name="peopleHeading">Who are the people behind food fest Success? </string>
+    <string name="peopleValue">Flavors is an android application developed by 2 software enthusiasts who breathe, dream and think about technology innovations. We are currently graduate students pursuing computer engineering in Syracuse University.</string>
+    <string name="questionsHeading">What should I do if I have questions, feedback or criticism about Flavors?</string>
+    <string name="questionsValue">Your feedback is really valuable to us and we take each and every item very seriously.  Just drop in your suggestions to <a href = "#">reachflavors@gmail.com</a> and we will be eager to listen from you and get back to you within 4 hours.</string>
+    <string name="developers">Crazy guys who are behind Flavors success !!</string>
+    <string name="sandeshHeading">Sandesh Bellur Shashidhara</string>
+    <string name="sandeshValue1">Sandesh is currently pursuing masters in Computer Engineering at Syracuse University. He has worked previously for 4.5 years at Quintiles as a Senior Software developer. </string>
+    <string name="sandeshValue2">Sandesh loves coding and is one of the master brains behind this application. Sandesh likes music and also likes travelling around places while not studying or working.</string>
+    <string name="rahulHeading">Rahul Nakkanwar</string>
+    <string name="rahulValue1">Rahul is currently pursuing masters in Computer Engineering at Syracuse University. He has 5 years of experience working with companies such as HSBC, Accenture etc.</string>
+    <string name="rahulValue2">Rahul has an avid interest in developing Web and Mobile applications. In his free time he likes to play and watch football, tennis etc.</string>
+
+</resources>

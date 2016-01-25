@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/gps_icon"
+        android:src="@drawable/my_location"/>
+
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+        android:id="@+id/citySearch"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/gps_icon"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:visibility="gone"
+        android:paddingRight="5dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        fab:met_textColor="@color/white"
+        fab:met_hideUnderline="true"
+        style="@style/PopupMenuEventScreen"
+        android:hint="Search City"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="New Text"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/gps_icon" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:id="@+id/hiddenTextView"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/gps_icon" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/search_icon"
+        android:paddingRight="14dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/hiddenTextView"
+        android:src="@drawable/search_icon"/>
+
+</RelativeLayout>

@@ -1,0 +1,205 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:context="com.syracuse.android.flavors.fragments.PrivacyFragment">
+
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/privacy"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/updated"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/privacy"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/updated"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/aboutHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updated"
+            android:layout_marginTop="20dp"
+            android:text="@string/aboutHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/aboutValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/policyHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/policyHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/policyValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/policyHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/policyValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/infoHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/policyValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/infoHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/infoValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/infoValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/changesHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/changesHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/changesValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changesHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/changesValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/storageHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changesValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/storageHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/storageValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storageHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/storageValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/tncHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storageValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/tncHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tncValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tncHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/tncValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/modHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tncValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/modHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/modValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/contactHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/contactHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contactValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/contactValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/disputeHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/disputeHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disputeValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disputeHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/disputeValue"
+            android:textIsSelectable="true" />
+
+    </RelativeLayout>
+</ScrollView>

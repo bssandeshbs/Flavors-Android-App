@@ -1,0 +1,40 @@
+<resources>
+
+    <!--Application-->
+    <string name="app_name">Flavors</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="app_email_id">reachflavors@gmail.com</string>
+
+    <!--Navigation Drawer-->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!--Facebook-->
+    <string name="facebook_app_id">1598163203806376</string>
+
+    <!--Parse-->
+    <string name="parse_app_id">vd5Bjg7kl87M2TzRDQKGLSaOQSBtBQJeQXBSJYoQ</string>
+    <string name="parse_client_key">daXRWapzFcnS8ctzhDWp0pTNU19BUmAokQdvOGyF</string>
+
+    <string name="title_activity_create_home_event">CreateHomeEventActivity</string>
+    <string name="maps_api_key">AIzaSyBQ4iw3KUK9tUMFaeM9rdr5o1SkoDynZa8</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="msg_failed_to_get_intent_data">Failed to get intent data</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_events">MyEventsActivity</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="title_activity_event_detail">EventDetailActivity</string>
+
+    <string name="max_guests">Guests</string>
+    <string name="title_activity_events_joined">EventsJoinedActivity</string>
+    <string name="title_activity_create_rest_event">CreateRestEventActivity</string>
+    <string name="events_joined_text">You have not joined any events till now \t\t\t\t\t\t\t\nGet Started by joining one !</string>
+    <string name="events_my_text">You have not created an event till now \t\t\t\t\t\t\t\nGet Started by creating one !</string>
+    <string name="event_list">No Food Events in your city \t\t\t\t\t\t\t\nGet Started by creating one !</string>
+    <string name="rest_list">No Yelp Restaurants in your city\t\t\t\t\t\t\t\nGet Started by creating a home event !</string>
+
+</resources>

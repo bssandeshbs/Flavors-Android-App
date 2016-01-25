@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.syracuse.android.flavors.activities.CreateRestEventActivity">
+
+    <item
+        android:title="City"
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        app:actionLayout="@layout/search_bar"/>
+
+</menu>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/createEventScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="15dp"
+                android:text="New Home Event"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/icon_small" />
+        </RelativeLayout>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/eventNameET"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:hint="Event Name"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="13dp"
+            fab:met_floatingLabel="highlight"
+            fab:met_maxCharacters="30"
+            fab:met_primaryColor="?colorPrimary"
+            fab:met_singleLineEllipsis="true" />
+
+        <ImageView
+            android:id="@+id/startTimeIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginTop="150.0dp"
+            android:src="@drawable/datetime" />
+
+        <ImageView
+            android:id="@+id/endTimeIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/datetime" />
+
+        <TextView
+            android:id="@+id/startTimeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/startTimeIV"
+            android:layout_toEndOf="@+id/startTimeIV"
+            android:text="Start Time" />
+
+        <TextView
+            android:id="@+id/endTimeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/endTimeIV"
+            android:layout_toEndOf="@+id/endTimeIV"
+            android:text="End Time" />
+
+        <TextView
+            android:id="@+id/startTimeValTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startTimeTxt"
+            android:layout_marginLeft="67.0dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12.0dp" />
+
+        <TextView
+            android:id="@+id/endTimeValTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startTimeTxt"
+            android:layout_marginLeft="238.0dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12.0dp" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:id="@+id/locationVal"
+            style="@style/PopupMenu"
+            android:layout_width="240.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="38.0dp"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginTop="195.0dp"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:minLines="2"
+            android:textSize="13.0dp"
+            fab:met_floatingLabel="highlight"
+            fab:met_primaryColor="?colorPrimary" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dp"
+            android:layout_alignTop="@+id/transparent_image" />
+
+        <ImageView
+            android:id="@+id/transparent_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150.0dp"
+            android:layout_alignEnd="@+id/map"
+            android:layout_alignStart="@+id/map"
+            android:layout_marginLeft="350.0dp"
+            android:layout_marginTop="270.0dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/menuET"
+            android:layout_width="190.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginStart="24.0dp"
+            android:layout_marginTop="440.0dp"
+            android:hint="Menu"
+            android:lines="1"
+            android:maxLines="2"
+            android:textSize="13.0dp"
+            fab:met_floatingLabel="highlight"
+            fab:met_primaryColor="?colorPrimary" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/maxGuestsVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="265.0dp"
+            android:layout_marginTop="440.0dp"
+            android:hint="Max Guests"
+            android:lines="1"
+            android:maxLines="1"
+            android:numeric="decimal"
+            android:singleLine="true"
+            android:textSize="13.0dp"
+            fab:met_floatingLabel="highlight"
+            fab:met_primaryColor="?colorPrimary" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/costET"
+            android:layout_width="50.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginStart="24.0dp"
+            android:layout_marginTop="490.0dp"
+            android:hint="Cost"
+            android:lines="1"
+            android:maxLines="1"
+            android:numeric="decimal"
+            android:singleLine="true"
+            android:textSize="13.0dp"
+            fab:met_floatingLabel="highlight"
+            fab:met_primaryColor="?colorPrimary" />
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="320.0dp"
+            android:layout_height="85.0dp"
+            android:layout_marginLeft="28.0dp"
+            android:layout_marginTop="570.0dp"
+            android:src="@drawable/menu_back" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginTop="550.0dp"
+            android:text="Menu Photos"
+            android:textColor="@color/half_black"
+            android:textSize="12.0dp" />
+
+        <ImageView
+            android:id="@+id/picture1"
+            android:layout_width="65.0dp"
+            android:layout_height="65.0dp"
+            android:layout_marginLeft="35.0dp"
+            android:layout_marginTop="575.0dp" />
+
+        <ImageView
+            android:id="@+id/picture2"
+            android:layout_width="65.0dp"
+            android:layout_height="65.0dp"
+            android:layout_marginLeft="105.0dp"
+            android:layout_marginTop="575.0dp" />
+
+        <ImageView
+            android:id="@+id/picture3"
+            android:layout_width="65.0dp"
+            android:layout_height="65.0dp"
+            android:layout_marginLeft="175.0dp"
+            android:layout_marginTop="575.0dp" />
+
+        <ImageView
+            android:id="@+id/picture4"
+            android:layout_width="65.0dp"
+            android:layout_height="65.0dp"
+            android:layout_marginLeft="245.0dp"
+            android:layout_marginTop="575.0dp" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="20.0dp"
+            android:layout_height="20.0dp"
+            android:layout_marginStart="270.0dp"
+            android:layout_marginTop="465.0dp"
+            fab:menu_colorNormal="@color/colorHighlight"
+            fab:menu_colorPressed="@color/white"
+            fab:menu_colorRipple="#66FFFFFF"
+            fab:menu_icon="@drawable/fab_add">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/galleryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image_white"
+                fab:fab_colorNormal="@color/colorHighlight"
+                fab:fab_colorPressed="@color/white_pressed"
+                fab:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/cameraButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_camera_white"
+                fab:fab_colorNormal="@color/colorHighlight"
+                fab:fab_colorPressed="@color/white"
+                fab:fab_size="mini" />
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <Button
+            android:id="@+id/createEventBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128.0dp"
+            android:layout_marginTop="670.0dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Create Event"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</ScrollView>

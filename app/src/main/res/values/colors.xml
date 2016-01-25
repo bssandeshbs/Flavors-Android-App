@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorHighlight">#B71C1C</color>
+    <color name="floating_action_button_bg">#D94818</color>
+    <color name="floating_action_button_pressed_bg">#212121</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="light_green">#A5D6A7</color>
+    <color name="yellow">#F0F4C3</color>
+    <color name ="blue">#0277BD</color>
+
+    <!--Material Design Theme Attributes-->
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="accent_color">#B71C1C</color>
+    <color name="accent_color_dark">#C62828</color>
+    <!--<color name="windowBackground">#F9E3CB</color>-->
+   <!-- <color name="windowBackground">#F7EFE2</color>-->
+    <!--<color name="windowBackground">#D5D6D2</color>-->
+   <!-- <color name="windowBackground">#E0E0E0</color>-->
+   <!-- <color name="windowBackground">#FFF0C2</color>-->
+    <color name="recycler_background">#FFF0C2</color>
+ <!--   <color name="windowBackground">#FFF9E7</color>-->
+    <color name="windowBackground">#FFF0C2</color>
+    <color name="black">#000000</color>
+    <color name="buttonColor">#B71C1C</color>
+    <color name="textColorSecondary">#5D4037</color>
+
+    <color name="cyan_500">#00bcd4</color>
+    <color name="light_red">#C62828</color>
+
+    <color name ="brown">#DDC5A2</color>
+    <color name ="textColor">#755248</color>
+</resources>

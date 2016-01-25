@@ -1,0 +1,252 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:context="com.syracuse.android.flavors.fragments.TermsFragment">
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/terms"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/updated"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/terms"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/update"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updated"
+            android:layout_marginTop="20dp"
+            android:text="@string/head"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/appHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="20dp"
+            android:text="@string/appHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/appValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/acceptHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/acceptHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/acceptValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acceptHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/acceptValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/eligibilityHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acceptValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/eligibilityHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eligibilityValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eligibilityHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/eligibilityValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/limHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eligibilityValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/limHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/limValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/limHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/limValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/termsHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/limValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/termsHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/termsValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/termsHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/tncValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/restHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/termsValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/restHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/restValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/restHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/restValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/thirdHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/restValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/thirdHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/thirdValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thirdHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/thirdValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/terminationHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thirdValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/terminationHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/terminationValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/terminationHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/terminationValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/linksHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/terminationValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/linksHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/linksValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linksHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/linksValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/tradeHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linksValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/tradeHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tradeValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tradeHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/tradeValue"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/violateHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tradeValue"
+            android:layout_marginTop="20dp"
+            android:text="@string/violateHeading"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/violateValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/violateHeading"
+            android:layout_marginTop="5dp"
+            android:text="@string/violateValue"
+            android:textIsSelectable="true" />
+
+    </RelativeLayout>
+</ScrollView>
